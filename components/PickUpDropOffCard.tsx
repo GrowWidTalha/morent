@@ -119,7 +119,7 @@ const PickUpDropOffCard = () => {
       {isSearchPage && (
         <Button
           className={`${
-            isSearchPage ? "xl:hidden" : "xl:max-w-[10rem]"
+            isSearchPage ? "xl:hidden" : "xl:max-w-40"
           } hover-effect flex h-12 grow flex-row gap-[0.38rem] rounded-[0.625rem] bg-blue500 xl:mt-[3.26rem] xl:h-14`}
           onClick={handleSearch}
         >
