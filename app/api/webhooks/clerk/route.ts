@@ -5,7 +5,7 @@ import { NextResponse } from "next/server";
 import { deleteUserAndCars, updateUser } from "@/lib/actions/user.actions";
 import { headers } from "next/headers";
 
-const webhookSecret = process.env.NEXT_CLERK_WEBHOOK_SECRET;
+const webhookSecret = process.env.WEBHOOK_SECRET;
 
 type EventType = "user.created" | "user.updated" | "user.deleted";
 
