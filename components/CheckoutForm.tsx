@@ -42,7 +42,7 @@ export default function CheckoutForm({
       const { error } = await stripe.confirmPayment({
         elements,
         confirmParams: {
-          return_url: `https://morent-zeta.vercel.app/checkout/Success?userId=${userId}&carId=${carId}&date=${date}`,
+          return_url: `https://morent-liard.vercel.app/checkout/Success?userId=${userId}&carId=${carId}&date=${date}`,
         },
       });
 
